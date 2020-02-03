@@ -3,6 +3,12 @@ body {
     font-size: 18px;
 }
 
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-align: center;
+}
+
 .bio {
     text-indent: 50px;
 }
