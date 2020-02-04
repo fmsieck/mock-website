@@ -12,10 +12,24 @@ body {
 .bio {
     text-indent: 50px;
 }
+.bio2 {
+    margin-bottom: 60px;
+}
+
 .img {
     display: block;
     margin-left: auto;
     margin-right:auto;
+}
+
+.date {
+    font-size: large;
+    font-weight: bold;
+}
+
+.a-bio {
+    margin: 30px;
+    text-indent: 20px;
 }
 
 .album-cover {
@@ -23,4 +37,10 @@ body {
     clear: left;
     margin: 10px;
     height: 200px;
+}
+
+.album {
+    margin-bottom: 10px;
+    border: 1px solid rgb(78, 78, 76);
+    width: 800px;
 }
