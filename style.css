@@ -19,9 +19,8 @@ body {
 }
 
 .album-cover {
-    /* float: left; */
+    float: left;
+    clear: left;
     margin: 10px;
+    height: 200px;
 }
-
-.cowys-1 {
-margin: 50px;}
