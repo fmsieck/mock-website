@@ -12,3 +12,16 @@ body {
 .bio {
     text-indent: 50px;
 }
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.album-cover {
+    /* float: left; */
+    margin: 10px;
+}
+
+.cowys-1 {
+margin: 50px;}
