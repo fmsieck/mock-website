@@ -1,6 +1,11 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+    background-color: rgba(211, 211, 211, 0.075);
+}
+
+img {
+    border: 1px solid black;
 }
 
 .subtitle {
@@ -12,35 +17,68 @@ body {
 .bio {
     text-indent: 50px;
 }
+
 .bio2 {
     margin-bottom: 60px;
+}
+
+.divider {
+border-top: .5px solid lightgray;
+width: 900px;
 }
 
 .img {
     display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .date {
     font-size: large;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .a-bio {
     margin: 30px;
     text-indent: 20px;
+    margin-bottom: 60px;
 }
 
 .album-cover {
     float: left;
     clear: left;
     margin: 10px;
-    height: 200px;
+    height: 230px;
 }
 
+/*
 .album {
     margin-bottom: 10px;
     border: 1px solid rgb(78, 78, 76);
     width: 800px;
 }
+*/
+
+.button {
+    color: black;
+    background-color: rgb(192, 89, 218);
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 150px;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: rgb(192, 89, 218);
+    background-color: black;
+}
+
+.album>p {
+    font-size: 18px;
+}
+
