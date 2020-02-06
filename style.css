@@ -15,7 +15,7 @@ img {
 }
 
 .bio {
-    text-indent: 50px;
+    text-indent: 1em;
 }
 
 .bio2 {
@@ -57,18 +57,12 @@ img {
     height: 230px;
 }
 
-/*
-.album {
-    margin-bottom: 10px;
-    border: 1px solid rgb(78, 78, 76);
-    width: 800px;
-}
-*/
+
 
 .button {
     color: #FBFCFD;
     background-color: #4D515D;
-    font-weight: bold;
+    font-weight: 500;
     padding: 10px;
     text-align: center;
     border: 2px solid #5D6063;
@@ -79,7 +73,7 @@ img {
 
 .button:hover {
     color: #FBFCFD;
-    background-color: black;
+    background-color: rgb(67, 70, 82);
 }
 
 .album>p {
