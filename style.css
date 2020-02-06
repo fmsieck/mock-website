@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Vollkorn', serif;
     font-size: 18px;
     background-color: rgba(211, 211, 211, 0.075);
 }
@@ -9,9 +9,12 @@ img {
 }
 
 .subtitle {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
     text-align: center;
+}
+
+.header {
+    font-family: 'Martel', serif;
+    font-size: 28px;
 }
 
 .bio {
@@ -57,8 +60,6 @@ img {
     height: 230px;
 }
 
-
-
 .button {
     color: #FBFCFD;
     background-color: #4D515D;
@@ -76,6 +77,6 @@ img {
     background-color: rgb(67, 70, 82);
 }
 
-.album>p {
-    font-size: 18px;
+.words {
+    color: darkslategray;
 }
