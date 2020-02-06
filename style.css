@@ -23,8 +23,12 @@ img {
 }
 
 .divider {
-border-top: .5px solid lightgray;
-width: 900px;
+    border-top: .5px solid lightgray;
+    width: 900px;
+}
+
+.album-list {
+    list-style-type: none;
 }
 
 .img {
@@ -62,8 +66,8 @@ width: 900px;
 */
 
 .button {
-    color: black;
-    background-color: rgb(192, 89, 218);
+    color: #FBFCFD;
+    background-color: #4D515D;
     font-weight: bold;
     padding: 10px;
     text-align: center;
@@ -74,11 +78,10 @@ width: 900px;
 }
 
 .button:hover {
-    color: rgb(192, 89, 218);
+    color: #FBFCFD;
     background-color: black;
 }
 
 .album>p {
     font-size: 18px;
 }
-
