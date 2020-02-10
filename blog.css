@@ -68,3 +68,17 @@ body {
     margin-bottom: 35px;
 }
 
+.footer {
+    margin-left: 100px;
+}
+
+.foot {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.social {
+    height: 20px;
+    margin-left: 15px;
+}
