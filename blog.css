@@ -2,13 +2,14 @@
     content: "";
     display: table;
     clear: both;
-  }
+}
 body {
     background-color: lightgray;
 }
 .postbox {
+    overflow: hidden;
     width: 70%;
-    height: 900px;
+    height: fit-content;
     margin: 0 auto;
     background-color: whitesmoke;
 }
@@ -17,17 +18,53 @@ body {
     height: 50px;
     width: 50px;
     margin-top: 60px;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-right: 15px;
 }
 .info {
+    font-weight: 600;
     margin-top: 75px;
     float: left;
 }
 .name {
     margin-right: 10px;
 }
-
 .information {
     color: gray;
+    margin-bottom: 70px;
 }
+.title {
+    margin-left: 100px;
+    clear: both;
+}
+.text-body {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+.main-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.side-pic {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+.block-quote {
+    margin-left: 15px;
+    float: right;
+    line-height: 25px;
+}
+.vl {
+    float: left;
+    border-left: 3px solid black;
+    height: 100px;
+    left: 50%;
+    margin-left: 145px;
+    margin-bottom: 35px;
+}
+
