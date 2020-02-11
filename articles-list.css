@@ -1,12 +1,12 @@
 body {
-  background-color: lightsteelblue;
+  background-color: rgba(176, 196, 222, 0.178);
 }
 
 .box {
   border: 1px solid rgba(128, 128, 128, 0.363);
   width: 400px;
   background-color: mintcream;
-  margin: 30px;
+  margin: 15px;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.048);
 }
 .avatar {
@@ -59,4 +59,5 @@ hr {
 
 .layout {
   display: flex;
+  justify-content: center;
 }
